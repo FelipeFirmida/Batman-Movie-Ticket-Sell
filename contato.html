@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!-- Identifica o tipo de versão html está sendo usado para o navegador -->
+<html lang="en"> <!-- lang - Identifica a linguagem utilizada no código -->
+<head> <!-- Terá todas as tags não visuais do documento HTML -->
+    <!-- As metas tags identificaram diversos aspectos/características do arquivo html, elas possuem muitas funções-->
+    <meta charset="UTF-8"> <!-- O charset identifica que os caracteres estarão no padrão latino-americano que é o mais usual-->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width", initial-scale="1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <img id="logo" src="./batman_logo-removebg-preview.png" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="formtest" class="form-container">
+        <h1 id="t1">CONTATO</h1>
+        <h3 id="t2">Tire suas dúvidas ou dê seu feedback sobre o conteúdo do site.</h3>
+        <form id="l1" action="/contato.html">
+            <label id="n" for="nome">Nome</label>
+            <input style="display: block" type="text" id="nome" name="nome" placeholder="Digite seu nome aqui." />
+
+            <label id="l2" for="sobrenome">Sobrenome</label>
+            <input style="display: block" type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome aqui." />
+
+            <label id="l3" for="sobrenome">Nacionalidade</label>
+            <input style="display: block" type="text" id="nacionalidade" name="nacionalidade" placeholder="Qual seu país de origem?" />
+
+            <label id="l4"for="email">Email</label>
+            <input style="display: block" type="email" id="email" name="email" placeholder="Insira um email válido." />
+
+            <label id="l5"for="mensagem" style="display: block;">Mensagem</label>
+            <textarea type="text" name="mensagem" placeholder="Deixe seu comentário aqui..." style="display: block"></textarea>
+
+            <input style="display:block" type="checkbox" id="verification" name="checkverification" value="Sim">
+            <label id="l7" for="verification"> Ao marcar a caixa você concorda em receber novidades e promoções do Batman por email. </label>
+
+            <input style="display: block" type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+    <footer> <!--Rodapé-->
+        <img style="object-fit: contain;" id="logo" src="batman_logo-removebg-preview.png" />
+        <span>Todos os direitos reservados ©</span>
+        <span> Desenvolvido por: Felipe Firmida</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
